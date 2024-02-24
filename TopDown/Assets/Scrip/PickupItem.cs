@@ -25,7 +25,7 @@ public class PickupItem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.E) && itemIsPick == true && readyToThrow)
+        if (Input.GetKey(KeyCode.E) && itemIsPick == true && readyToThrow)
         {
             forceMulti += 300 * Time.deltaTime;
         }
