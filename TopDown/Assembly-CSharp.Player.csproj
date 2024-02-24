@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scrip\PlayerControl.cs" />
-    <Compile Include="Assets\Scrip\FoliowCamera.cs" />
     <Compile Include="Assets\Scrip\PickupItem.cs" />
+    <Compile Include="Assets\Scrip\FoliowCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

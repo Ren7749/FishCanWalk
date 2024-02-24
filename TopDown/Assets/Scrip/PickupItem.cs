@@ -4,15 +4,65 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Transform pickupPoint;
+    private Transform player;
+
+    public float pickupDistance;
+    public float forceMulti;
+
+    public bool readyToThrow;
+    public bool itemIsPick;
+
+    private Rigidbody rb;
+
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
+        player = GameObject.Find("Player").transform;
+        pickupPoint = GameObject.Find("PickupPoint").transform;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        if (Input.GetKeyUp(KeyCode.E) && itemIsPick == true && readyToThrow)
+        {
+            forceMulti += 300 * Time.deltaTime;
+        }
+
+        pickupDistance = Vector3.Distance(player.position, transform.position);
+
+        if (pickupDistance < 2)
+        {
+            if (Input.GetKeyDown(KeyCode.E) && itemIsPick == false && pickupPoint.childCount < 1)
+            {
+                GetComponent<Rigidbody>().useGravity = false;
+                GetComponent<BoxCollider>().enabled = false;
+
+                this.transform.position = pickupPoint.position;
+                this.transform.parent = GameObject.Find("PickupPoint").transform;
+
+                itemIsPick = true;
+                forceMulti = 0;
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.E) && itemIsPick == true)
+        {
+            readyToThrow = true;
+
+            if (forceMulti > 10)
+            {
+                rb.AddForce(player.transform.forward * forceMulti);
+                this.transform.parent = null;
+                GetComponent<Rigidbody>().useGravity = true;
+                GetComponent<BoxCollider>().enabled = true;
+                itemIsPick = false;
+
+                forceMulti = 0;
+                readyToThrow = false;
+            }
+            forceMulti = 0;
+        }
     }
 }
