@@ -44,7 +44,9 @@ public class PickupItem : MonoBehaviour
 
                 itemIsPick = true;
                 forceMulti = 0;
+                rb.constraints = RigidbodyConstraints.FreezeAll;
             }
+
         }
 
         if (Input.GetKeyUp(KeyCode.E) && itemIsPick == true)
@@ -61,8 +63,10 @@ public class PickupItem : MonoBehaviour
 
                 forceMulti = 0;
                 readyToThrow = false;
-            }
+                rb.constraints = ~RigidbodyConstraints.FreezeAll;
+            }           
             forceMulti = 0;
+
         }
     }
 }
