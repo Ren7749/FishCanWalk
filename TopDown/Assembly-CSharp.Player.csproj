@@ -56,9 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrip\RespawnPlayer.cs" />
     <Compile Include="Assets\Scrip\PlayerControl.cs" />
+    <Compile Include="Assets\Scrip\GameEnd.cs" />
+    <Compile Include="Assets\Scrip\MainDoor.cs" />
+    <Compile Include="Assets\Scrip\Respawns.cs" />
     <Compile Include="Assets\Scrip\PickupItem.cs" />
     <Compile Include="Assets\Scrip\FoliowCamera.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

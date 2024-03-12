@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obtacle
+  - Trap
+  - Item1
+  - Item2
+  - Item3
+  - End
   layers:
   - Default
   - TransparentFX
