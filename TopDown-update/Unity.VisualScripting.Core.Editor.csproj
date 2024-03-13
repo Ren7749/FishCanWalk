@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A554E305-9B19-FC33-37C3-3DBE7ABB1CF3}</ProjectGuid>
+    <ProjectGuid>{1D20D6A6-0C2D-999E-4EDC-16F4B3DAB2BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualScripting.Core.Editor</AssemblyName>
@@ -195,9 +195,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Description\MachineDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_11.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\ScriptUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Widgets\Nodes\INodeWidget.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Inspection\DraggedListItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Widgets\Nodes\INodeWidget.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\AssetUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Meta\MemberMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Inspection\Primitives\ShortInspector.cs" />
@@ -1202,23 +1202,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{1ED45D7F-B176-21E0-104B-0E1D05E68624}</Project>
+      <Project>{14F90B4D-93D2-A3B1-FC1B-4D13BA5E2B9D}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{8FC64C71-A92B-A5F3-C821-57F716171067}</Project>
+      <Project>{2046786B-3659-C15E-97A9-954FF5C1B220}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9E6DD6CD-4635-B7BB-7C92-1AFFD223A666}</Project>
+      <Project>{22A3DE8E-C722-2184-2646-538438827A39}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{FAFA591A-2D3D-2F65-1931-9A76D2C34B7E}</Project>
+      <Project>{45882D37-B117-2421-E201-5B448F49B130}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{B612F0BD-B03B-F815-B636-986C44E0BF8A}</Project>
+      <Project>{EEEF6129-4701-E769-6C18-E53F40600A19}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

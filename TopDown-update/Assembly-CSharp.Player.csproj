@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C0EEE130-41F6-55EA-EB49-ADE85963B04C}</ProjectGuid>
+    <ProjectGuid>{41E106CC-1198-719C-504E-DA1B643D220F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,9 +56,21 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrip\RespawnPlayer.cs" />
     <Compile Include="Assets\Scrip\PlayerControl.cs" />
+    <Compile Include="Assets\Scrip\GameEnd.cs" />
+    <Compile Include="Assets\Scrip\MainDoor.cs" />
+    <Compile Include="Assets\Scrip\Respawns.cs" />
     <Compile Include="Assets\Scrip\PickupItem.cs" />
     <Compile Include="Assets\Scrip\FoliowCamera.cs" />
+    <Compile Include="Assets\Scrip\SecondDoor.cs" />
+    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint1.cs" />
+    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint2.cs" />
+    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint3.cs" />
+    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint4.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -637,39 +649,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{187BE0E9-D6EE-66C4-70B5-F8E75898A553}</Project>
+      <Project>{FD153FA3-2C2A-A8BE-F515-43F7FF465367}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{9EDE0184-14F1-FA05-E6E4-48DAE2587F32}</Project>
+      <Project>{215B6887-A3EA-4FB8-B551-B254D9049AA8}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{9D80335E-06BD-31CB-82CF-D1849A106C46}</Project>
+      <Project>{96F36D19-FBEF-1DC3-3933-520D65DA3DEB}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{AE3D2C7A-844B-8438-B7C0-C31680C2F424}</Project>
+      <Project>{869F3DDF-21A7-968D-076A-CD122FE932DB}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{C78A9A64-7D43-4F45-5B43-4349696A5684}</Project>
+      <Project>{710D79BC-2120-8B85-EC44-60CEE2E74F1A}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{AC5A5CF1-A415-0E74-E6A0-B702D27EA2DF}</Project>
+      <Project>{25BEBD50-7B56-EBDB-A68C-C76FD7F1D7E2}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{6D77BDDF-4E72-FE50-BEB0-D4B231B5269C}</Project>
+      <Project>{EAB98CE5-DAA4-D67A-94CC-F61EAABB1D32}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{E1AF2488-1C16-EFA8-FC25-6C174FD3D234}</Project>
+      <Project>{34B3A334-CCC5-A60D-E570-AA82EE3D02C2}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{5A21BC32-A627-82DB-50C6-CE57574DDF26}</Project>
+      <Project>{8B8163E8-E7BD-BDC0-6B75-EEF8B85228E5}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>

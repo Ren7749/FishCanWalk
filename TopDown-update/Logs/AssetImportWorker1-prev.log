@@ -1,0 +1,441 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'th' Physical Memory: 7521 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/MatchMeck/TopDown-update
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60500
+Successfully changed project path to: C:/MatchMeck/TopDown-update
+C:/MatchMeck/TopDown-update
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21932] Host "[IP] 192.168.39.153 [Port] 0 [Flags] 2 [Guid] 3806238833 [EditorId] 3806238833 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P61D9A3B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21932] Host "[IP] 192.168.39.153 [Port] 0 [Flags] 2 [Guid] 3806238833 [EditorId] 3806238833 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P61D9A3B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 86.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/MatchMeck/TopDown-update/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011775 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010084 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\MatchMeck\TopDown-update\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\MatchMeck\TopDown-update\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1406ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (687ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (114.3 KB). Loaded Objects now: 3850.
+Memory consumption went from 129.5 MB to 129.4 MB.
+Total: 3.067000 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.555200 ms  DeleteObjects: 0.117800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182884.500081 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49103ddb131dee35ba8759c97ba2dd04') in 0.059551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.216736 seconds.
+  path: Assets/Assets/Simp_Prop/- Materials/concrete_02.mat
+  artifactKey: Guid(a815592cdede4d548a1d82a714eb9a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Materials/concrete_02.mat using Guid(a815592cdede4d548a1d82a714eb9a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac88c0165b69434c3e616148a4d517f') in 0.112555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Simp_Prop/- Materials/concrete_03.mat
+  artifactKey: Guid(b8a9796ed949e944c9e7bfc6d546b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Materials/concrete_03.mat using Guid(b8a9796ed949e944c9e7bfc6d546b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cba4ecc41d6672713c22c2a029b2260') in 0.020402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Simp_Prop/- Materials/scp_ip_material_01.mat
+  artifactKey: Guid(d643bb379830900459c36f7d5f26a0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Materials/scp_ip_material_01.mat using Guid(d643bb379830900459c36f7d5f26a0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe43e259482323077549827b0121ac1') in 0.136416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.500360 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_building_01.FBX
+  artifactKey: Guid(0b94dd6f76d2f54409fd4d69eaa4a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_building_01.FBX using Guid(0b94dd6f76d2f54409fd4d69eaa4a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c00e202195389315ee459c9b7cfa128') in 0.111437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_03.FBX
+  artifactKey: Guid(1d4fd985e3f7ae44db4a7922249c33da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_03.FBX using Guid(1d4fd985e3f7ae44db4a7922249c33da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e5b320bae4ec8d51e85377de572d09') in 0.025243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_pipe_01.FBX
+  artifactKey: Guid(29c751ad8ef72de4397f324d4ce502e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_pipe_01.FBX using Guid(29c751ad8ef72de4397f324d4ce502e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce2377ef500e37085e1e6a0d0f5e8f8') in 0.024075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_pipe_01_support.FBX
+  artifactKey: Guid(988e07fb210abc34cbe14a1254798ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_pipe_01_support.FBX using Guid(988e07fb210abc34cbe14a1254798ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53580b009a93db426d9299d95314681') in 0.021950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_07.FBX
+  artifactKey: Guid(50dd9f16ff47d7440b1b61b6b2cc58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_07.FBX using Guid(50dd9f16ff47d7440b1b61b6b2cc58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cca55c04e634ed4f186c3c9653ab90b') in 0.021872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_pipe_01.FBX
+  artifactKey: Guid(f99db14dffbeb5b4b9b42fda8da1f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_pipe_01.FBX using Guid(f99db14dffbeb5b4b9b42fda8da1f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00211175842bf685e4a61008d65b5eb') in 0.021408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_04.FBX
+  artifactKey: Guid(b791a7a6e9fa3aa4184517380bb12ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_04.FBX using Guid(b791a7a6e9fa3aa4184517380bb12ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a5290db0d9d519386b9e7dc0983b08') in 0.022398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_01.FBX
+  artifactKey: Guid(b39dcc10b8089144c920098178a56583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_01.FBX using Guid(b39dcc10b8089144c920098178a56583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3177ec8c5dbae7e0292ef16602167983') in 0.020586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_pipe_01_support.FBX
+  artifactKey: Guid(8bf49d785fc03fe42bce92104e701251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_pipe_01_support.FBX using Guid(8bf49d785fc03fe42bce92104e701251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42f815e1d43767a419fc39849cf9c24') in 0.021403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_06.FBX
+  artifactKey: Guid(ea8f533cff1878b46b3645168e40d920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_06.FBX using Guid(ea8f533cff1878b46b3645168e40d920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685ebc79a0f4317be2c337459eeec5c4') in 0.022686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_pipe_double_01_support.FBX
+  artifactKey: Guid(5ae364716201b824d8bf3281e00dd621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_pipe_double_01_support.FBX using Guid(5ae364716201b824d8bf3281e00dd621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0e0c0117587df25af379b278906e6b') in 0.021431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_container_01.FBX
+  artifactKey: Guid(3d4340990e1cfc745bc4259ab29b3cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_container_01.FBX using Guid(3d4340990e1cfc745bc4259ab29b3cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fa622798a4f26214e9e7ca6ae4e08d') in 0.020748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_building_05.FBX
+  artifactKey: Guid(99dc843160b89b943be7b40d0cb58c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_building_05.FBX using Guid(99dc843160b89b943be7b40d0cb58c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec4c0192a2683dadbc2a67a5de76094') in 0.025826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_tank_02.FBX
+  artifactKey: Guid(05a680928fac9b0439eee9d05305a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_tank_02.FBX using Guid(05a680928fac9b0439eee9d05305a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88924fce7bb2006e89abff1bf781ef81') in 0.022670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_04.FBX
+  artifactKey: Guid(7f2da27ec5f96ca43a8cb6cad036cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_04.FBX using Guid(7f2da27ec5f96ca43a8cb6cad036cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9643960384550e3b9b209c2ab96b3912') in 0.021359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_03.FBX
+  artifactKey: Guid(203b203a28888df4e83628bdc03b037b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_03.FBX using Guid(203b203a28888df4e83628bdc03b037b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fc304c614bfd38cc8ab1c4ce93bd46') in 0.021988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_05.FBX
+  artifactKey: Guid(e2d4e6e0171daee4ebd04e1a389b21e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_nuclear_plant_building_05.FBX using Guid(e2d4e6e0171daee4ebd04e1a389b21e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01332f1a7370cc979729ba2b35715b1e') in 0.021922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_prop_01.FBX
+  artifactKey: Guid(149552f586b4749488f75e227d358875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_prop_01.FBX using Guid(149552f586b4749488f75e227d358875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ec0cdcfad726bea6003ae61619e0e') in 0.022507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_05.FBX
+  artifactKey: Guid(6eb69c1d3ea73a3479f4cc5d92bae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_granary_building_05.FBX using Guid(6eb69c1d3ea73a3479f4cc5d92bae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93a16960b1814a1e12eda1d3141314a') in 0.022060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_tank_01.FBX
+  artifactKey: Guid(ca85b3e723ef1c645ae54e30c9bcd66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Meshes/scp_ip_factory_tank_01.FBX using Guid(ca85b3e723ef1c645ae54e30c9bcd66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae76da5c674f6a267c4bc15323f65da') in 0.024148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099363 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_building_02.prefab
+  artifactKey: Guid(9ff88184627ab2043bf0ab1bea0babb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_building_02.prefab using Guid(9ff88184627ab2043bf0ab1bea0babb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c3595131e6a32552d059ec52c24d66') in 0.113268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_tank_01.prefab
+  artifactKey: Guid(ba8654207d6bb5b4ba156c94a54c0a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_tank_01.prefab using Guid(ba8654207d6bb5b4ba156c94a54c0a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ca5ac32102e57555a05df56144c055') in 0.108900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_06.prefab
+  artifactKey: Guid(a715fde9e3d39bd4da110b7e1876a0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_06.prefab using Guid(a715fde9e3d39bd4da110b7e1876a0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304713c5ea4b5ac899f61b1c51d44b36') in 0.093473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_double_01_support.prefab
+  artifactKey: Guid(7192fd225ed3f344b9aedaf8d9aec784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_double_01_support.prefab using Guid(7192fd225ed3f344b9aedaf8d9aec784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb13bc1f4b9314d4240cf20e00514a77') in 0.093753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_02.prefab
+  artifactKey: Guid(7a1246484f87020428d93558a242584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_02.prefab using Guid(7a1246484f87020428d93558a242584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e81c1a16c4613b20f9e2503e42839e') in 0.091946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_pipe_02.prefab
+  artifactKey: Guid(e922387c63b5ab14980574d4da24cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_pipe_02.prefab using Guid(e922387c63b5ab14980574d4da24cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855da1b11bab48529027586b20e6d02') in 0.091543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_building_05.prefab
+  artifactKey: Guid(34a85748946660d449c1f5caa515670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_building_05.prefab using Guid(34a85748946660d449c1f5caa515670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea6971f723b8879815f78fcfe3299b3') in 0.087602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_07.prefab
+  artifactKey: Guid(9d98a300cebd40940ace11f6615abc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_07.prefab using Guid(9d98a300cebd40940ace11f6615abc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f65d63ae4041e315803ebae37c4141') in 0.117073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_01.prefab
+  artifactKey: Guid(42ce53d0d59ad8944ac7ccf8209c514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_01.prefab using Guid(42ce53d0d59ad8944ac7ccf8209c514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ebcdcf928e606c62a1a52f9d5413fc') in 0.102078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_pipe_01.prefab
+  artifactKey: Guid(814bcbe54afb37f469e34510e51e4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_pipe_01.prefab using Guid(814bcbe54afb37f469e34510e51e4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89223ab1ad3b85c555ac4da6198d34dc') in 0.100562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_building_03.prefab
+  artifactKey: Guid(ebdba3422ff652a4ab5bb1590e90eb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_building_03.prefab using Guid(ebdba3422ff652a4ab5bb1590e90eb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3a3606e6890f976dfc43cf79f7d07e') in 0.096470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_transmission_tower.prefab
+  artifactKey: Guid(8dca1f78c0e7f104895655f1ad42efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_transmission_tower.prefab using Guid(8dca1f78c0e7f104895655f1ad42efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e501bdfda83fd558c50fb552a1bd780') in 0.106235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_prop_01.prefab
+  artifactKey: Guid(ccf91b663766b314886ca26f972ea2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_prop_01.prefab using Guid(ccf91b663766b314886ca26f972ea2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d9fc127aff5cf465468f59fbacff53') in 0.089834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_building_02.prefab
+  artifactKey: Guid(50bc914f57ea9b14286868d23365e6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_building_02.prefab using Guid(50bc914f57ea9b14286868d23365e6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b6491ef60061b9fe1f0652ae0d98bc') in 0.099303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_03.prefab
+  artifactKey: Guid(6d1e5e39990546546984e8e4b6cf6f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_03.prefab using Guid(6d1e5e39990546546984e8e4b6cf6f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a4d1be71f6b8ed445b8584350bd08') in 0.096962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_building_01.prefab
+  artifactKey: Guid(e0df626c144006a4a91366ca632d17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_nuclear_plant_building_01.prefab using Guid(e0df626c144006a4a91366ca632d17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5078fe5562dbf91a322cfa05c10e20') in 0.102625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_building_05.prefab
+  artifactKey: Guid(b2624b35974530048a8b7ad7a86c7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_building_05.prefab using Guid(b2624b35974530048a8b7ad7a86c7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b6e6ba95e290df6a1f1cd458b497f7') in 0.090617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_01.prefab
+  artifactKey: Guid(4a95b73fb4325dd49a8bcf93312ac3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_building_01.prefab using Guid(4a95b73fb4325dd49a8bcf93312ac3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63735c8e73a9ad28bd4f959ef53fce93') in 0.091442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_double_02.prefab
+  artifactKey: Guid(7f18af7e02070684796457ae0d83599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_factory_pipe_double_02.prefab using Guid(7f18af7e02070684796457ae0d83599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dabcb5cd47a87092efb41e5f8fdddf0') in 0.106001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_pipe_01_support.prefab
+  artifactKey: Guid(17be02d75b04f624fb0f0d427381c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Simp_Prop/- Prefabs/scp_ip_granary_pipe_01_support.prefab using Guid(17be02d75b04f624fb0f0d427381c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6f58ee2538374f347111755d969eab') in 0.101788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.405643 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(d5e6c879355a72545bf98978b9a32688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(d5e6c879355a72545bf98978b9a32688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18b6068447685d4c48557e0621df379') in 0.032075 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
