@@ -10,7 +10,7 @@ public class DeliveryPoint2 : MonoBehaviour
     {
         if (collision.CompareTag("Item2"))
         {
-            deliveryPoint2.enabled = false;
+            this.gameObject.SetActive(false);
         }
     }
 }

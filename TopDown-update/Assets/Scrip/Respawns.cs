@@ -22,6 +22,11 @@ public class Respawns : MonoBehaviour
             OnHit = true;
             Respawn();
         }
+        if (collision.CompareTag("ItemCheckpoint"))
+        {
+            OnHit = true;
+            Respawn();
+        }
     }
 
     public void Respawn()

@@ -58,16 +58,21 @@
   <ItemGroup>
     <Compile Include="Assets\Scrip\RespawnPlayer.cs" />
     <Compile Include="Assets\Scrip\PlayerControl.cs" />
+    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint3.cs" />
     <Compile Include="Assets\Scrip\GameEnd.cs" />
+    <Compile Include="Assets\Scrip\SecondDoor.cs" />
     <Compile Include="Assets\Scrip\MainDoor.cs" />
     <Compile Include="Assets\Scrip\Respawns.cs" />
+    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint2.cs" />
+    <Compile Include="Assets\Scrip\Hoghlight.cs" />
+    <Compile Include="Assets\Scrip\Navigate.cs" />
     <Compile Include="Assets\Scrip\PickupItem.cs" />
     <Compile Include="Assets\Scrip\FoliowCamera.cs" />
-    <Compile Include="Assets\Scrip\SecondDoor.cs" />
-    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint1.cs" />
-    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint2.cs" />
-    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint3.cs" />
     <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint4.cs" />
+    <Compile Include="Assets\Scrip\AiPatrol.cs" />
+    <Compile Include="Assets\Scrip\DeliveryPoint\DeliveryPoint1.cs" />
+    <Compile Include="Assets\Scrip\Navigate2.cs" />
+    <Compile Include="Assets\Scrip\PickupotherItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />

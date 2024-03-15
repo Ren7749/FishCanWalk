@@ -15,6 +15,8 @@ public class PickupItem : MonoBehaviour
 
     private Rigidbody rb;
 
+    public GameObject navigate;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -28,6 +30,15 @@ public class PickupItem : MonoBehaviour
         if (Input.GetKey(KeyCode.E) && itemIsPick == true && readyToThrow)
         {
             forceMulti += 300 * Time.deltaTime;
+        }
+
+        if(itemIsPick == true)
+        {
+            navigate.SetActive(true);
+        }
+        if (itemIsPick == false)
+        {
+            navigate.SetActive(false);
         }
 
         pickupDistance = Vector3.Distance(player.position, transform.position);
@@ -68,5 +79,6 @@ public class PickupItem : MonoBehaviour
             forceMulti = 0;
 
         }
+
     }
 }
